@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Masta - Chef</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pizza_title">Pizza</string>
+    <string name="biryani_title">Biryani</string>
+    <string name="eggRoll_title">Egg-Roll</string>
+    <string name="burger_title">Burger</string>
+    <string name="fish_title">Fish-Fry</string>
+    <string name="noodles_title">Noodles</string>
+    <string name="pancakes_title">Pancakes</string>
+    <string name="prawns_title">Prawns</string>
+    <string name="roasted_chicken_title">Roasted-Chicken</string>
+    <string name="salad_title">Salad</string>
+    <string name="fried_chicken_title">Fried Chicken</string>
+
+
+    <string name="pizza_description">Pizza with custom toppings.</string>
+
+    <string name="biryani_description">Traditional Biryani with spicy gravy. </string>
+
+    <string name="eggRoll_description"> Loaded with flavours. </string>
+
+    <string name="burger_description">Burger with goodness of steamed baby corns.</string>
+
+    <string name="fish_description">Battered or breaded fried fresh fish.
+      </string>
+
+    <string name="noodles_description">Served with sauces and chicken.</string>
+
+    <string name="pancakes_description">Topped with sweet maple syrup.</string>
+
+    <string name="prawns_description">Served with customisable sauces.</string>
+
+    <string name="roasted_chicken_description">Slow roasted chicken on raspberry wood.</string>
+
+    <string name="salad_description">a mixture vegetables served with a dressing.</string>
+
+    <string name="fried_chicken_description">Better than KFC. </string>
+
+
+    <string name="pizza_price">150</string>
+    <string name="biryani_price">150</string>
+    <string name="eggRoll_price">120</string>
+    <string name="burger_price">80</string>
+    <string name="fish_price">120</string>
+    <string name="noodles_price">100</string>
+    <string name="pancakes_price">80</string>
+    <string name="prawns_price">220</string>
+    <string name="roasted_chicken_price">180</string>
+    <string name="salad_price">60</string>
+    <string name="fried_chicken_price">180</string>
+    <string name="nav_open">nav open</string>
+    <string name="nav_close">nav closed</string>
+
+</resources>

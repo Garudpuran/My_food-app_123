@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardview_bg_main_items"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:padding="10dp"
+    android:elevation="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/itemImageV"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/item_img_bg_main"
+        android:cropToPadding="false"
+        android:elevation="10dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/burger_250p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title text"
+        android:layout_marginBottom="6dp"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        android:elevation="20dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemImageV"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:text="description"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemImageV"
+        app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/priceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="300"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Rs:"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/priceTV"
+        app:layout_constraintEnd_toStartOf="@+id/priceTV"
+        app:layout_constraintTop_toTopOf="@+id/priceTV" />
+
+    <ImageView
+        android:id="@+id/cancel_order_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatTextView"
+        app:layout_constraintStart_toEndOf="@+id/itemImageV"
+        app:layout_constraintTop_toTopOf="@+id/appCompatTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
